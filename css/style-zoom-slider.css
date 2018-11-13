@@ -1,0 +1,120 @@
+
+	@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+	
+  body{
+    margin:0;
+    padding:0;
+	  background-color:#000;
+  }
+	.panel{
+		width:100%;
+		height:100vh;
+		overflow:hidden;
+		position:relative;
+	}
+	 #right-arrow{
+      position:absolute;
+      z-index:801;
+      right:20px;
+      top:50%;
+      width:60px;
+      height:auto;
+      -webkit-transform: translateY(-50%);
+       -ms-transform: translateY(-50%);
+       transform: translateY(-50%);
+   }
+   #left-arrow{
+      position:absolute;
+      z-index:800;
+      left:20px;
+      top:50%;
+      width:60px;
+      height:auto;
+      -webkit-transform: translateY(-50%);
+       -ms-transform: translateY(-50%);
+       transform: translateY(-50%);
+   }
+	.couleur-point{
+		color:#f8d304;
+	}
+	.titre-parallax{
+		font-family: 'Open Sans', sans-serif;
+		font-weight:700;
+		color:#fff;
+		font-size:137px;
+		line-height:137px;
+	}
+	.chapeau-parallax{
+		font-family: 'Open Sans', sans-serif;
+		font-weight:400;
+		color:#fff;
+		font-size:24px;
+		line-height:27px;
+		margin-top:20px;
+		font-style: italic;
+	}
+	.chapeau-parallax strong{
+		color:#f8d304;
+		font-weight:bold;
+	}
+	.bouton-parallax{
+		font-family: 'Open Sans', sans-serif;
+		font-weight:700;
+		text-align:center;
+		text-transform:uppercase;
+		color:#001d45;
+		font-size:14px;
+		line-height:18px;
+		background-color:#f8d304;
+		display:inline-block;
+		padding-top:12px;
+		padding-bottom:10px;
+		padding-left:60px;
+		padding-right:60px;
+		margin-left:auto;
+		margin-right:auto;
+		height:22px;
+		margin-top:20px;
+		border-radius: 32px;
+	}
+	a.bouton-parallax{
+		text-decoration:none;	
+	}
+	a.bouton-parallax:hover{
+		background-color:#fff;
+		color:#001d45;
+	}
+	.private-policy{
+		font-family: 'Open Sans', sans-serif;
+		font-weight:400;
+		font-size:14px;
+		position:absolute;
+		z-index:995;
+		bottom:32px;
+		left:25px;
+		color:#fff;
+	}
+	.svgs-footer{
+		position:absolute;
+		z-index:996;
+		bottom:32px;
+		right:25px;
+	
+		width:150px;
+		height:12px;
+	}
+	.svg-container{
+		width:18px;
+		height:18px;
+		margin-left:22px;
+		fill:#fff;
+		float:left;
+	}
+	.svg-insta-container{
+		width:25px;
+		height:18px;
+		margin-left:22px;
+		fill:#fff;
+		float:left;
+	}
+	
